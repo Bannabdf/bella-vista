@@ -44,7 +44,6 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Card 1 */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center border border-[#1C1008]/5">
-              <span className="text-5xl block mb-4">🍝</span>
               <h3 className="text-xl font-[family-name:var(--font-playfair-display)] text-[#1C1008] mb-2">
                 Tagliatelle al Ragù
               </h3>
@@ -58,7 +57,6 @@ export default function Home() {
 
             {/* Card 2 */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center border border-[#1C1008]/5">
-              <span className="text-5xl block mb-4">🍕</span>
               <h3 className="text-xl font-[family-name:var(--font-playfair-display)] text-[#1C1008] mb-2">
                 Margherita Napoletana
               </h3>
@@ -73,7 +71,6 @@ export default function Home() {
 
             {/* Card 3 */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center border border-[#1C1008]/5">
-              <span className="text-5xl block mb-4">🍰</span>
               <h3 className="text-xl font-[family-name:var(--font-playfair-display)] text-[#1C1008] mb-2">
                 Tiramisu della Casa
               </h3>
