@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FDFAF5;
+  --foreground: #1C1008;
+  --accent: #8B1A1A;
+  --secondary: #C9842A;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Lato", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Lato", sans-serif;
+}
