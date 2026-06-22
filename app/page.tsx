@@ -4,9 +4,12 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-[#2C1810]">
+      <section
+        className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80)" }}
+      >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-[#2C1810]/80" />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(0,0,0,0.55)" }} />
         <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-[family-name:var(--font-playfair-display)] text-[#FDFAF5] leading-tight mb-6">
             Authentic Italian Cuisine
